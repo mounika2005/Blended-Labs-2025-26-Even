@@ -28,14 +28,20 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Explored IAM groups: EC2-Admin, EC2-Support, S3-Support  
 - Inspected managed and inline policies attached to groups  
 **Screenshot:**  
-(Add screenshot here)
+<img width="1916" height="973" alt="Screenshot 2026-04-17 143141" src="https://github.com/user-attachments/assets/cd170638-04bf-43ca-8a13-724a0a15d84f" />
+<img width="1911" height="972" alt="Screenshot 2026-04-17 143150" src="https://github.com/user-attachments/assets/5cce1e22-acfc-4745-8754-f87136e7e338" />
+<img width="1900" height="978" alt="Screenshot 2026-04-17 143200" src="https://github.com/user-attachments/assets/ed3ab9d3-59cb-494b-a809-7e1f8e5987a1" />
+
 
 ### Task 2: Add Users to Groups
 - Added user-1 to the S3-Support group  
 - Added user-2 to the EC2-Support group  
 - Added user-3 to the EC2-Admin group  
 **Screenshot:**  
-(Add screenshot here)
+  <img width="1908" height="1005" alt="Screenshot 2026-04-17 142939" src="https://github.com/user-attachments/assets/8f91e6e0-dd57-4aef-bf9e-f751ab4acca1" />
+<img width="1915" height="1021" alt="Screenshot 2026-04-17 143001" src="https://github.com/user-attachments/assets/03602ec0-980d-4e98-94f0-4ee0fd310cbb" />
+<img width="1908" height="1005" alt="Screenshot 2026-04-17 142939" src="https://github.com/user-attachments/assets/80bccd10-b3ab-443d-a3c6-9c0beef227ac" />
+
 
 ### Task 3: Test IAM User Permissions
 - Logged in using IAM sign-in URL  
@@ -43,7 +49,10 @@ The objective of this lab is to understand how AWS Identity and Access Managemen
 - Verified EC2 read-only access for user-2  
 - Verified EC2 administrative access for user-3  
 **Screenshot:**  
-(Add screenshot here)
+  <img width="1916" height="1016" alt="Screenshot 2026-04-17 144950" src="https://github.com/user-attachments/assets/c79138f4-2691-4efe-896b-7ac157442574" />
+<img width="1912" height="1026" alt="Screenshot 2026-04-17 144153" src="https://github.com/user-attachments/assets/e97a6d65-e954-48c3-98c1-754da29281ed" />
+<img width="1907" height="1022" alt="Screenshot 2026-04-17 144022" src="https://github.com/user-attachments/assets/8134f124-6631-4b13-ba1b-b119327c5fa1" />
+
 
 
 ## Workflow
@@ -66,6 +75,6 @@ This lab provided hands-on experience with AWS IAM by demonstrating how organiza
 
 
 ## Author
-**Name:** Your Name and (Reg No)
+**Name:** levaku lakshmi mounika-212223100026
 **Course:** Introduction to Cloud Computing  
 
