@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: ___Levaku Lakshmi Mounika_____________________________
+* **Register Number**: _______212223100026______________
+* **Date of Submission**: _____16/052026_____________
 
 ---
 
@@ -85,13 +85,19 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1. Logged into the AWS Management Console and opened the VPC Dashboard. Created a new VPC with CIDR block 10.0.0.0/16 and assigned a name to the VPC.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2. Created a public subnet inside the VPC with CIDR block 10.0.1.0/24 and enabled auto-assign public IPv4 address option.
+
+3. Created an Internet Gateway and attached it to the VPC. Then created a Route Table, added a default route (0.0.0.0/0) to the Internet Gateway, and associated the route table with the public subnet.
+
+4. Created a Security Group and configured inbound rules to allow SSH traffic on port 22 and HTTP traffic on port 80.
+
+5. Launched an EC2 instance using Amazon Linux 2 AMI and t2.micro instance type. Attached the created security group and key pair to the instance.
+
+6. Connected to the EC2 instance and installed the Apache HTTP web server using Linux commands.
+
+7. Created a simple HTML webpage, started the Apache service, and verified the web server by accessing the EC2 public IP address in a web browser.
 
 ---
 
@@ -99,19 +105,21 @@ Create a simple HTML page and verify that it can be accessed from a web browser 
 
 ### Screenshot 1: VPC and Subnet Details
 
-(Insert Screenshot Here)
+<img width="1911" height="912" alt="Screenshot 2026-05-17 222726" src="https://github.com/user-attachments/assets/1752d1b2-a6d2-4525-a59a-847d6d02e5d8" />
+
 
 ---
 
 ### Screenshot 2: EC2 Instance Running
 
-(Insert Screenshot Here)
+
+<img width="1904" height="967" alt="Screenshot 2026-05-17 225059" src="https://github.com/user-attachments/assets/53804cb6-7322-4d0e-88a2-466ad488850a" />
 
 ---
 
 ### Screenshot 3: Web Server Output in Browser
+<img width="1913" height="1031" alt="Screenshot 2026-05-17 225506" src="https://github.com/user-attachments/assets/4da8a534-d73b-4843-ae85-6656ea964df8" />
 
-(Insert Screenshot Here)
 
 ---
 
