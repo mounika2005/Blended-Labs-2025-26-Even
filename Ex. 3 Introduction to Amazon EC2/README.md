@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: _______LEVAKU LAKSHMI MOUNIKA_________________________
+* **Register Number**: _____212223100026________________
+* **Date of Submission**: ______21-05-2026____________
 
 ---
 
@@ -96,35 +96,35 @@ Terminate the EC2 instance after completing the experiment to avoid unnecessary 
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+1. First, I logged in to the AWS Management Console and opened the Amazon EC2 dashboard to explore services such as Instances, AMIs, Security Groups, and Key Pairs.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2. Next, I launched a new EC2 instance using the Amazon Linux 2 AMI and selected the `t2.micro` instance type under the free tier. I also created a new key pair and downloaded the `.pem` file.
 
----
+3. Then, I configured the security group by allowing SSH access on Port 22 from my IP address and HTTP access on Port 80 from anywhere.
+
+4. After the instance was launched, I connected to it using SSH through the terminal with the downloaded key pair and verified that the instance was running successfully.
+
+5. Finally, I performed instance operations such as stop, start, and reboot, monitored the instance metrics in the Monitoring tab, and terminated the instance after completing the experiment to avoid additional AWS charges.
+
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Dashboard / Instance List
 
-(Insert Screenshot Here)
 
----
+<img width="1918" height="982" alt="Screenshot 2026-05-21 083624" src="https://github.com/user-attachments/assets/a267574e-9ab4-4bda-8b01-45df336e6861" />
+
 
 ### Screenshot 2: SSH Connection to Instance
 
-(Insert Screenshot Here)
+<img width="1919" height="964" alt="Screenshot 2026-05-21 090101" src="https://github.com/user-attachments/assets/f6c8caae-f8f6-4d11-be16-b983f1873097" />
 
----
+<img width="1860" height="967" alt="Screenshot 2026-05-21 083957" src="https://github.com/user-attachments/assets/aaf4c007-792b-4d19-8cb5-abc2e321f907" />
 
 ### Screenshot 3: Instance Monitoring / Status
 
-(Insert Screenshot Here)
+<img width="1918" height="982" alt="Screenshot 2026-05-21 083624" src="https://github.com/user-attachments/assets/1cf0d658-f62b-4cdf-94d5-bfd964cb3b10" />
 
----
 
 ## Result 
 
