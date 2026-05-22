@@ -2,9 +2,9 @@
 
 ## Author
 
-* **Name**: ________________________________
-* **Register Number**: _____________________
-* **Date of Submission**: __________________
+* **Name**: __LEVAKU LAKSHMI MOUNIKA______________________
+* **Register Number**: ____212223100026_________________
+* **Date of Submission**: __22-05-2026________________
 
 ---
 
@@ -78,35 +78,52 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 ## Workflow (Student Explanation)
 
-(Write the steps you followed in your own words)
+## Workflow (Student Explanation)
+```
+1. First, I logged in to the AWS Management Console and opened the EC2 Dashboard. Then I explored the Amazon EBS section and observed the different EBS volume types such as gp2/gp3 SSD, Provisioned IOPS SSD, Throughput Optimized HDD, and Cold HDD.
 
-1. ---
-2. ---
-3. ---
-4. ---
-5. ---
+2. Next, I created a new EBS volume by selecting the same Availability Zone as my EC2 instance. I chose the required storage size and selected the General Purpose SSD (gp3) volume type.
 
----
+3. After creating the volume, I attached the EBS volume to my running EC2 instance using the “Attach Volume” option and assigned a device name such as `/dev/xvdf`.
+
+4. I connected to the EC2 instance using SSH and checked the attached storage device using the `lsblk` command. Then I formatted the volume with the ext4 file system using the command:
+
+   ```bash
+   sudo mkfs -t ext4 /dev/xvdf
+   ```
+
+5. Then, I created a mount directory and mounted the EBS volume using:
+
+   ```bash
+   sudo mkdir /mnt/ebs
+   sudo mount /dev/xvdf /mnt/ebs
+   ```
+
+6. After mounting, I stored sample files and folders inside the mounted directory to verify that the storage was working properly.
+
+   ```bash
+   echo "Amazon EBS Lab" > /mnt/ebs/sample.txt
+   ```
+
+7. Finally, I rebooted the EC2 instance and checked whether the stored data was still available. The data remained intact after reboot, which confirmed that Amazon EBS provides persistent block storage for EC2 instances.
+```
 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EBS Volume Created
 
-(Insert Screenshot Here)
+<img width="1911" height="970" alt="Screenshot 2026-05-22 132735" src="https://github.com/user-attachments/assets/36b82753-53d3-4a18-95a2-3550a9e29ac5" />
 
----
 
 ### Screenshot 2: EBS Volume Attached to EC2
 
-(Insert Screenshot Here)
 
----
+<img width="1919" height="969" alt="Screenshot 2026-05-22 133142" src="https://github.com/user-attachments/assets/e69a5f87-8bba-4632-9bac-42729acb091c" />
+
 
 ### Screenshot 3: Mounted Volume with Data
 
-(Insert Screenshot Here)
-
----
+<img width="1919" height="955" alt="Screenshot 2026-05-22 135019" src="https://github.com/user-attachments/assets/331a3986-c485-42a6-b547-6833fee5e0ee" />
 
 ## Result / Conclusion
 
