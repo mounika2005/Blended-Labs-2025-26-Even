@@ -88,22 +88,19 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
 
 4. I connected to the EC2 instance using SSH and checked the attached storage device using the `lsblk` command. Then I formatted the volume with the ext4 file system using the command:
 
-   ```bash
    sudo mkfs -t ext4 /dev/xvdf
-   ```
+   
 
 5. Then, I created a mount directory and mounted the EBS volume using:
 
-   ```bash
    sudo mkdir /mnt/ebs
    sudo mount /dev/xvdf /mnt/ebs
-   ```
+   
 
 6. After mounting, I stored sample files and folders inside the mounted directory to verify that the storage was working properly.
 
-   ```bash
    echo "Amazon EBS Lab" > /mnt/ebs/sample.txt
-   ```
+   
 
 7. Finally, I rebooted the EC2 instance and checked whether the stored data was still available. The data remained intact after reboot, which confirmed that Amazon EBS provides persistent block storage for EC2 instances.
 
