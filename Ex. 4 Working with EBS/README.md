@@ -103,7 +103,7 @@ Reboot the EC2 instance and verify that the data stored in the EBS volume is sti
    
 
 7. Finally, I rebooted the EC2 instance and checked whether the stored data was still available. The data remained intact after reboot, which confirmed that Amazon EBS provides persistent block storage for EC2 instances.
-
+```
 
 ## Output Screenshots (Attach 3)
 
