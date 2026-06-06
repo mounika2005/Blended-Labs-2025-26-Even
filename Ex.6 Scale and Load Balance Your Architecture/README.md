@@ -1,9 +1,12 @@
+
 # Lab 6 – Scale and Load Balance Your Architecture
 
 ## Title
 
 Scale and Load Balance Your Architecture
-Author : your name   Reg no : yours   Date :
+Author : LEVAKU LAKSHMI MOUNIKA
+Reg no : 212223100026
+Date :05-06-2026
 
 ---
 
@@ -72,6 +75,7 @@ Describe step-by-step how you performed this experiment in your own words.
 
 ## Output Screenshots 
 
+<img width="936" height="853" alt="Screenshot 2026-06-06 130147" src="https://github.com/user-attachments/assets/00ff0260-75e5-4da3-8dc6-8a8a228f6bff" /><img width="949" height="779" alt="Screenshot 2026-06-06 131146" src="https://github.com/user-attachments/assets/c61f7ac3-4da6-4555-bf9d-81e2b74823a7" />
 
 ---
 
