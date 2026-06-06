@@ -1,3 +1,4 @@
+<img width="1015" height="886" alt="Screenshot 2026-06-02 132322" src="https://github.com/user-attachments/assets/4b120a77-6efd-4d85-aeb7-1ce2b753caf8" />
 # Lab 5 – Build a Database Server (AWS)
 
 ## Author
@@ -95,22 +96,18 @@ Test the database server by connecting to it locally or remotely and performing 
 ## Output Screenshots (Attach 3)
 
 ### Screenshot 1: EC2 Instance for Database Server
+<img width="1015" height="886" alt="Screenshot 2026-06-02 132322" src="https://github.com/user-attachments/assets/cb97fe33-6b45-442e-aaf6-2e668079e72e" />
 
-(Insert Screenshot Here)
 
----
 
 ### Screenshot 2: Database Service Running
 
-(Insert Screenshot Here)
 
----
+<img width="1918" height="994" alt="Screenshot 2026-06-02 132829" src="https://github.com/user-attachments/assets/9a5ed0b0-7ca7-45ae-904d-e754d915b805" />
 
 ### Screenshot 3: Sample Database and Table
 
-(Insert Screenshot Here)
-
----
+<img width="1699" height="878" alt="Screenshot 2026-06-02 134138" src="https://github.com/user-attachments/assets/0749e129-f352-4837-833d-128234feba4e" />
 
 ## Result
 
